@@ -16,3 +16,8 @@ A compilation of work samples and professional documentation that provides proof
 ## Website:
 
 https://kliff-portfolio.netlify.app/
+
+## Preview
+
+https://user-images.githubusercontent.com/32655437/159101321-17f8e1dd-a585-4025-99db-691232126374.mp4
+
