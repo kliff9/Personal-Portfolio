@@ -6,7 +6,6 @@ import {
     FaJsSquare,
     FaNodeJs,
     FaReact,
-    FaAngular,
     FaJava,
     FaEthereum,
     FaSass,
