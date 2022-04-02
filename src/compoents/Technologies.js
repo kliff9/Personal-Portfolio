@@ -13,11 +13,13 @@ import {
     FaPython,
     FaHardHat,
     FaNode,
+    FaRust
   
   
   } from "react-icons/fa";
-  
-  
+ import { SiMysql } from "react-icons/si";
+ import  Solana  from "./img2/Solana1.png";
+
   import {
     SiSolidity,
     SiTypescript,
@@ -118,7 +120,26 @@ function Technologies() {
               size={130}
               color="yellow"
               className="w-full text-center mt-20 animate-bounce "            
-            />                                                                                                          
+            />
+              <img src={Solana} 
+              size={130}
+              className="w-full justify-self-center mt-20 solana animate-bounce"            
+            />
+            <SiMysql 
+              size={130}
+              color="blue"
+              className="w-full text-center mt-20 "            
+            />
+            <FaRust 
+              size={130}
+              color="black"
+              className="w-full text-center mt-20 animate-bounce "            
+            />
+            <FaJava 
+              size={130}
+              color="orangered"
+              className="w-full text-center mt-20  "            
+            />                                                                                                                    
           </div>
         </div>
         

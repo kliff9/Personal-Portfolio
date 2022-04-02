@@ -529,7 +529,9 @@ div.work__card img {
   color: white;
 }
 
-
+.solana {
+  width: 130px;
+}
 
 /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Contact Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
 #contact {
