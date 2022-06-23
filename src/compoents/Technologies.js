@@ -50,16 +50,16 @@ function Technologies() {
               color="green"
               className="w-full text-center mt-20 "
             />
-            <FaBootstrap
+            <SiTypescript 
               size={130}
               color="blue"
-              className="w-full text-center mt-20 animate-bounce"
+              className="w-full text-center mt-20 animate-bounce"            
             />
             <FaJsSquare
               size={130}
               color="green"
               className="w-full text-center mt-20"
-            />
+            />           
             <FaHtml5
               size={130}
               color="orangered"
@@ -70,75 +70,36 @@ function Technologies() {
               color="blue"
               className="w-full text-center mt-20 animate-bounce"
             />
-            <FaEthereum 
+          <SiTailwindcss 
               size={130}
-              color="black"
+              color="cyan"
               className="w-full text-center mt-20"            
             />
-            <SiTypescript 
+            <FaBootstrap
               size={130}
-              color="blue"
-              className="w-full text-center mt-20 animate-bounce"            
+              color="purple"
+              className="w-full text-center mt-20 animate-bounce"
             />
             <SiSolidity 
               size={130}
               color="black"
               className="w-full text-center mt-20 animate-bounce"            
             />    
-            <SiTailwindcss 
-              size={130}
-              color="cyan"
-              className="w-full text-center mt-20"            
-            />
-            <FaSass 
-              size={130}
-              color="pink"
-              className="w-full text-center mt-20 animate-bounce"            
-            />
-            <SiCsharp 
-              size={130}
-              color="purple"
-              className="w-full text-center mt-20"            
-            />
             <SiMongodb 
               size={130}
               color="green"
               className="w-full text-center mt-20 "            
             />
-            <SiDotnet 
-              size={130}
-              color="purple"
-              className="w-full text-center mt-20 animate-bounce"            
-            />
             <FaPython 
               size={130}
-              color="blue"
-              className="w-full text-center mt-20 "            
-            />
-            <FaHardHat 
-              size={130}
-              color="yellow"
+             color="DodgerBlue"
               className="w-full text-center mt-20 animate-bounce "            
-            />
-              <img src={Solana} 
-              size={130}
-              className="w-full justify-self-center mt-20 solana animate-bounce"            
             />
             <SiMysql 
               size={130}
               color="blue"
               className="w-full text-center mt-20 "            
             />
-            <FaRust 
-              size={130}
-              color="black"
-              className="w-full text-center mt-20 animate-bounce "            
-            />
-            <FaJava 
-              size={130}
-              color="orangered"
-              className="w-full text-center mt-20  "            
-            />                                                                                                                    
           </div>
         </div>
         
