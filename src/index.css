@@ -9,7 +9,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 @tailwind base;
