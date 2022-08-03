@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -43,16 +44,19 @@ html {
   /************ Custom Properties ***********/
 
   /* Main Color */
-  --primary-color: #014d4e;
+  /* --primary-color: #014d4e; */
+  --primary-color: #218c74;
 
   /* Secondary Color */
-  --secondary-color: #ff9408;
+  /* --secondary-color: #ff9408; */
+  --secondary-color: #e58e26;
 
+  
   /* Secondary Color Modified */
   --secondary-color-m: #ff94088e;
 
   /* tertiary color */
-  --tertiary-color: #017374;
+  --tertiary-color: #218c74;
 
   /* tertiary color modified */
   --tertiary-color-m: #01727498;
@@ -202,10 +206,10 @@ ul.header__main-nav--links li a:active::after {
   transform: scaleX(1);
 }
 
-/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Showcase / Hero Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
+/*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Showcase Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
 #showcase {
   height: 100vh;
-  background-image: url("./img2/kliff_city.jpg");
+  background-image: url("./img2/greyel.jpg");
   background-size: cover;
   background-position: center;
   /* background-attachment: fixed; */
@@ -320,6 +324,18 @@ ul.header__main-nav--links li a:active::after {
     0% 20%
   );
 }
+/* .shape {
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 20%,
+    100% 80%,
+    80% 100%,
+    20% 100%,
+    0% 80%,
+    0% 20%
+  );
+} */
 
 div.work__card img {
   height: 100%;
@@ -328,10 +344,10 @@ div.work__card img {
   transition: filter 0.25s ease;
 }
 
-.work__card img:hover,
+/* .work__card img:hover,
 .work__card img:active {
   filter: sepia(80%);
-}
+} */
 
 
 
@@ -523,7 +539,9 @@ div.work__card img {
 }
 
 .services--para {
-  font-family: "Indie Flower", cursive;
+  font-family: "Indie Flower";
+  /* font-family: 'Roboto', sans-serif; */
+
   font-size: 2rem;
   color: white;
 }
@@ -535,7 +553,7 @@ div.work__card img {
 /*-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-* Contact Section *-*-*-*-**-*-*-*-**-*-*-*-**-*-*-*-*/
 #contact {
   height: 100vh;
-  background-image: url("./img2/kliff_sit.jpg");
+  background-image: url("./img2/ContactMe.jpg");
   background-size: cover;
   /* background-position: center; */
   /* background-attachment: fixed; */
@@ -555,14 +573,18 @@ div.work__card img {
 .contact__form input,
 .contact__form textarea {
   color: white;
-  font-family: "Indie Flower", cursive;
+  font-family: "Indie Flower";
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
   padding: 2rem;
   background: transparent;
-  border: none;
-  border-bottom: var(--secondary-color) solid 0.1rem;
+  /* border: none; */
+  /* border-bottom: gray solid 0.1rem; */
+  /* border-top: var(--secondary-color) solid 0.1rem; */
+  border: 0.1rem solid var(--secondary-color);
+
 }
+
 
 .contact__form textarea {
   height: 30vh;
@@ -577,8 +599,16 @@ input[type="submit"] {
   background-color: var(--secondary-color);
 }
 
+label {
+  line-height: 40px;
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0 0 0 30px;
+  display: block;
+  pointer-events: none;
+}
 
-@media screen and (min-width: 875px) and (max-width: 1290px) {
+@media screen and (min-width: 875px) and (max-width: 1320px) {
 
 .work__card{
   flex-basis: 25rem;

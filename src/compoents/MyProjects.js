@@ -13,26 +13,26 @@ function MyProjects() {
  
 
     <div class="work__card">
-      <img src="img/bag.webp" alt="poster" class="imagee"/>
-      <div className='absolute inset-0 flex items-center justify-center flex-col opacity-0 bg-black hover:opacity-80 ' >
-      <h1 className='text-5xl font-semibold text-yellow-600	'>E-commerce </h1>
-      <a href="https://kliff-e-com.herokuapp.com/" className='border-2 rounded border-white p-3.5 hover:bg-green-500 px-5 mt-5 text-white'> View </a>
+      <img src="img/shop.jpg" alt="poster" class="imagee"/>
+      <div className='absolute inset-8 flex items-center justify-center flex-col opacity-0 bg-black hover:opacity-80 shape' >
+      <h1 className='text-6xl font-semibold text-yellow-600	'>E-commerce </h1>
+      <a href="https://kliff-e-com.herokuapp.com/" className='text-3xl border-2 rounded border-white p-3.5 hover:bg-green-500 px-5 mt-5 text-white h-24 w-36   flex justify-center items-center	'> View </a>
   </div>
     </div>
 
     <div class="work__card">
       <img src="img/Bot.jpg" alt="poster" class="imagee"/>
-      <div className='absolute inset-0 flex items-center justify-center flex-col opacity-0 bg-black hover:opacity-80 ' >
-      <h1 className='text-5xl font-semibold text-yellow-600	'>Automated UniSwap Bot</h1>
-     <a href="https://github.com/kliff9/UniSwap-Trading-Bot" className='border-2 rounded border-white p-3.5 hover:bg-green-500 px-5 mt-5 text-white'> View </a> 
+      <div className='absolute inset-8 flex items-center justify-center flex-col opacity-0 bg-black hover:opacity-80 ' >
+      <h1 className='text-6xl font-semibold text-yellow-600	'>Automated UniSwap Bot</h1>
+     <a href="https://github.com/kliff9/UniSwap-Trading-Bot" className='text-3xl border-2 rounded border-white p-3.5 hover:bg-green-500 px-5 mt-5 text-white h-24 w-36   flex justify-center items-center	'> View </a> 
   </div>
     </div> 
 
     <div class="work__card">
-      <img src="img/eevee.webp" alt="poster" class="imagee"/>
-      <div className='absolute inset-0 flex items-center justify-center flex-col opacity-0 bg-black hover:opacity-80 ' >
-      <h1 className='text-5xl font-semibold text-yellow-600	'>Pokemon Deck Builder </h1>
-      <a href="https://pkmntcg0.herokuapp.com/" className='border-2 rounded border-white p-3.5 hover:bg-green-500 px-5 mt-5 text-white'> View </a>
+      <img src="img/movies.jpg" alt="poster" class="imagee"/>
+      <div className='absolute inset-8 flex items-center justify-center flex-col bg-black opacity-0 hover:opacity-80 ' >
+      <h1 className='text-6xl font-semibold text-yellow-600	'> Movies App </h1>
+      <a href="https://rpmovies.netlify.app/" className='text-3xl border-2 rounded border-white p-3.5 hover:bg-green-500 px-5 mt-5 text-white h-24 w-36   flex justify-center items-center	'> View </a>
   </div>
     </div>
     </div> 

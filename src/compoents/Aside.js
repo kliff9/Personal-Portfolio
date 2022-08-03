@@ -1,11 +1,4 @@
 
-import {
-   FaFacebookF,
-   FaTwitter,
-   FaLinkedin,
-   FaInstagram,
-   FaGithub
-  } from "react-icons/fa";
 
   import { Link } from "react-router-dom";
 

@@ -9,7 +9,7 @@ function AboutMe() {
         <>
           <section id="about-me">
     <div class="about-me__img">
-      <img src="img/kliff_city.jpg" alt="ME" />
+      <img src="img/kliff_sit.jpg" alt="ME" />
     </div>
     <div class="about-me__content">
       <h2 class="about-me__content--title">About Me</h2>

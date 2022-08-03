@@ -70,9 +70,13 @@ function Contact() {
       <section id="contact">
       {status && renderAlert()}
         <form class="contact__form" onSubmit={sendEmail} ref={form}>
+        <label>Name</label>
           <input type="text" placeholder="Name"  name="fullName" value={values.fullName} onChange={handleChange}/>
+          <label>Email</label>
           <input type="email" placeholder="Email" name="email" value={values.email} onChange={handleChange}/>
+          <label>Subject</label>
           <input type="text" placeholder="Subject" name="subject" value={values.subject} onChange={handleChange}/>
+          <label>Message</label>
           <textarea name="message" placeholder="Message" value={values.message} onChange={handleChange}></textarea>
           <input type="submit" value="Submit" />
           </form>
